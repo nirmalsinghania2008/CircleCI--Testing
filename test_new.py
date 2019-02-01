@@ -10,3 +10,6 @@ class TestCalculator:
 
     def test_subtraction(self):
         assert 5 == citest.subtract_numbers(6, 1)
+
+    def test_multiply(self):
+        assert 6 == citest.multiply_numbers(2, 3)
