@@ -5,7 +5,6 @@ import citest
 
 
 class TestCalculator:
-
     def test_addition(self):
         assert 4 == citest.add_numbers(2, 2)
 
